@@ -8,9 +8,16 @@ function Projects(){
             <div className=" p-container">
                 <div className="p1">
                     <p>this website</p>
-                    <image></image>
-                    <p>the code</p>
+                    <img src="src/assets/Page.svg"></img>
 
+                </div>
+
+                <div className="p2">
+                    <p>
+                        WORK<br/>
+                        IN<br/>
+                        PROGRESS
+                    </p>
                 </div>
             </div>
         </div>
