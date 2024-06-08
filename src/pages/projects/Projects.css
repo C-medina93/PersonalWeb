@@ -1,0 +1,30 @@
+.p-body{
+    width: 100%;
+    height: 1200px;
+    display:grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-template-rows: repeat( 6, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+.p-body> h1{
+    grid-column: 2/4;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-container{
+    grid-column: 1/ span 4;
+    grid-row: 2/span 4;
+}
+
+.p1{
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,0 +1,25 @@
+.foot{
+    background-color: #62b7ea;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.toes{
+    display: flex;
+    gap: 2rem;
+    font-size: 50px;
+}
+
+.toes>a{
+    color:black;
+}
+
+.toes>a:hover{
+    color:rgb(227, 239, 249);
+}
+
+.toes>a:active{
+    color:#62b7ea;
+}
